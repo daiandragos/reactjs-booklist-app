@@ -19,7 +19,7 @@ const Table = ({ books, deleteBook, editBook }) => {
           <TableCell fieldName={book.isbn} />
           <TableCell
             actionsCell
-            deleteBook={() => deleteBook(book.bookId)}
+            deleteBook={() => deleteBook(book.id)}
             editBook={() => editBook(book)}
           />
         </div>
